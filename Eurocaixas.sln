@@ -11,8 +11,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Eurocaixas.Domain", "2 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Eurocaixas.Infrastructure", "3 - Eurocaixas.Infrastructure", "{7E7DDB41-F24D-44A3-A4E9-1C3FE20F2621}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1 - Eurocaixas.Data", "Eurocaixas.Infrastructure.Data\3.1 - Eurocaixas.Data.csproj", "{7E28DB49-0E6F-4057-88A2-5D6F2B3DBB20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2 - Eurocaixas.Infrastructure.IoC", "Eurocaixas.Infrastructure.IoC\3.2 - Eurocaixas.Infrastructure.IoC.csproj", "{2553B911-C779-4196-904E-108251CBE307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1 - Eurocaixas.Domain", "Eurocaixas.Domain\2.1 - Eurocaixas.Domain.csproj", "{09D01A16-334B-4419-A8B3-ACAD21A025AF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E28DB49-0E6F-4057-88A2-5D6F2B3DBB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E28DB49-0E6F-4057-88A2-5D6F2B3DBB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E28DB49-0E6F-4057-88A2-5D6F2B3DBB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E28DB49-0E6F-4057-88A2-5D6F2B3DBB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2553B911-C779-4196-904E-108251CBE307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2553B911-C779-4196-904E-108251CBE307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2553B911-C779-4196-904E-108251CBE307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2553B911-C779-4196-904E-108251CBE307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D01A16-334B-4419-A8B3-ACAD21A025AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D01A16-334B-4419-A8B3-ACAD21A025AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D01A16-334B-4419-A8B3-ACAD21A025AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D01A16-334B-4419-A8B3-ACAD21A025AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E28DB49-0E6F-4057-88A2-5D6F2B3DBB20} = {7E7DDB41-F24D-44A3-A4E9-1C3FE20F2621}
+		{2553B911-C779-4196-904E-108251CBE307} = {7E7DDB41-F24D-44A3-A4E9-1C3FE20F2621}
+		{09D01A16-334B-4419-A8B3-ACAD21A025AF} = {4E4CB2C8-CF5E-4CA0-A625-F3867AF7318A}
 	EndGlobalSection
 EndGlobal
