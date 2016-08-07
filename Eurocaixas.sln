@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Eurocaxias.UI", "0 - Eurocaxias.UI", "{57DD240E-5CC2-4BE4-8B98-F2E0F6E5B817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Eurocaixas.Application", "1 - Eurocaixas.Application", "{9971A55B-DF0B-467A-8765-47C8583B9D93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Eurocaixas.Domain", "2 - Eurocaixas.Domain", "{4E4CB2C8-CF5E-4CA0-A625-F3867AF7318A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Eurocaixas.Infrastructure", "3 - Eurocaixas.Infrastructure", "{7E7DDB41-F24D-44A3-A4E9-1C3FE20F2621}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
